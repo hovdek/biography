@@ -1,0 +1,77 @@
+
+
+.h-100vh {
+    min-height: 100vh;
+}
+
+.jumbotron {
+    padding: 4rem 2rem;
+    margin-bottom: 2rem;
+    background-color: var(--bs-light);
+    border-radius: 0.3rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.jumbotron-bg {
+    opacity: 0.3;
+    position: absolute;
+    left: 0;
+    top: 10;
+    width: auto;
+    background-size: cover;
+}
+
+.jumbotron-content {
+    position: relative;
+    top: 30px;
+}
+
+hr {
+    width: 45ch;
+}
+
+form input, form textarea {
+    background: #f5f5f5;
+    border: 0;
+    width: 60ch;
+    border-radius: 5px;
+}
+
+.about-me-content {
+    width: 60ch;
+}
+
+.card {
+    max-width: 768px;
+    transition: 0.5s;
+    box-shadow: 2px 0  15px 2px #e4e4e4;
+}
+
+.card:hover {
+    transform: scale(1.01);
+    transition: 0.5s;
+}
+
+.top-card {
+    top: 20px;
+}
+
+
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1;
+  }
+
+  @media only screen and (max-width: 576px) {
+
+    .about-me-content {
+        width: 35ch;
+    }
+
+    form input, form textarea {
+        width: 35ch;
+    }
+  }
