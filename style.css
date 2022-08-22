@@ -75,7 +75,11 @@ form input, form textarea {
         width: 35ch;
     }
 
+    .card {
+        width: 35ch;
+    }
+
     .card-cover {
-        height: 200px;
+        display: none;
     }
   }
